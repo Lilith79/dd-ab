@@ -545,7 +545,7 @@ body {overflow: auto !important;}#main {opacity: 1.0 !important;-moz-transform: 
 	text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
 	c {
 		width: 100vh;
 	}
@@ -579,5 +579,44 @@ body {overflow: auto !important;}#main {opacity: 1.0 !important;-moz-transform: 
 	
 	#data {
 		margin: 0 30px;
+	}
+	
+	.text1 {
+		font-size: 1.5em;
+	}
+	
+	.text2 {
+		font-size: 2.25em;	
+	}
+	
+	.image {
+		transform: scale(1.25);
+	}
+	
+	#buttons02 .button {
+		font-size: 0.9em;
+	}
+	
+	#aaa::before {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1600px) {
+	.text1 {
+		font-size: 1.5em;
+	}
+	
+	.text2 {
+		font-size: 2.25em;	
+	}
+	
+	.image {
+		transform: scale(1.25);
+	}
+	
+	body::before {
+	background-position: 50% 0%;
+	background-size: cover;
 	}
 }
